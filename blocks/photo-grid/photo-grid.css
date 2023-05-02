@@ -1,0 +1,9 @@
+.photo-grid {
+    min-height: calc(100vh - 96px);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    box-sizing: border-box;
+    gap: 16px;
+    /* grid-template-columns: repeat(auto-fit, minmax(288px, 1fr)); */
+}

@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    max-height: 52px;
+    max-width: 1184px;
+    width: calc(100% - 96px);
+    background-color: #2A2C2F;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 931px;
+    margin: 28px 48px;
+}

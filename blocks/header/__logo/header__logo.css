@@ -1,0 +1,8 @@
+.header__logo {
+    max-width: 176px;
+    max-height: 52px;
+    z-index: 10;
+    /* top: 28px;
+    left: 48px;
+    background: #FFFFFF;*/
+}
