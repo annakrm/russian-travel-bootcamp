@@ -11,3 +11,7 @@
     height: 740px;
     position: absolute;
 }
+
+.cover__overlay:hover {
+    opacity: 0.8;
+  }
