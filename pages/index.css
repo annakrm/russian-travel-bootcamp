@@ -22,7 +22,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_sign/intro__list_sign_numbers.css);
+@import url(../blocks/intro/__list-sign-numbers/intro__list-sign-numbers.css);
 
 /* photo-grid styles */
 @import url(../blocks/photo-grid/photo-grid.css);
