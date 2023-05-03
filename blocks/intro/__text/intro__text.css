@@ -4,11 +4,21 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
-    /* or 26px */
-
 
     color: #FFFFFF;
-    height: 208px;
     width: 690px;
     margin: 0;
+    display: flex;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__text {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__text {
+        width: 100%;
+    }
 }

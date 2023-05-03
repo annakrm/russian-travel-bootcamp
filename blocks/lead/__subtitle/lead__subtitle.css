@@ -5,12 +5,30 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
-    /* or 120% */
-
     text-align: center;
-
     color: #FFFFFF;
     height: 72px;
-    width: 640px;
-    margin: 32px 320px 64px 320px;
+    max-width: 640px;
+    margin: 32px 0 64px;
+}
+
+@media screen and (max-width: 767px) {
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .lead__subtitle {
+        margin: 32px 0 56px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__subtitle {
+        margin: 16px 0 40px;
+        height: 40px;
+    }
 }

@@ -4,10 +4,15 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    /* identical to box height, or 112% */
-
 
     color: #FFFFFF;
     display: flex;
     text-decoration-line: none;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+    }
 }

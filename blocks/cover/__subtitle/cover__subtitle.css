@@ -4,16 +4,18 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    /* or 122% */
-
     text-align: center;
-
     color: #FFFFFF;
     z-index: 10;
-
     display: flex;
-
     width: 360px;
-    height: 66px;
     margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .cover__subtitle {
+        width: max-content;
+        font-size: 14px;
+        line-height: 16px;
+    }
 }

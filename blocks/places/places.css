@@ -5,4 +5,26 @@
     align-items: center;
     gap: 80px;
     margin: 92px 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+    .places {
+        gap: 72px;
+        margin: 88px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places {
+        gap: 50px;
+        margin: 64px 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro {
+        width: calc(100% - 48px);
+        margin: 88px 0;
+    }
 }

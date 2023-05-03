@@ -13,4 +13,12 @@
         height: 100%;
         position: relative;
         margin: 0 48px;
+        text-align: center;
+}
+
+@media screen and (max-width: 1279px) {
+        .cover__background {
+                margin: 0;
+                width: 100%;
+        }
 }

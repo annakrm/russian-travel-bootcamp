@@ -2,3 +2,32 @@
     height: 460px;
     width: 460px;
 }
+
+@media screen and (max-width: 1279px) {
+    .place__image {
+        height: 440px;
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__image {
+        height: 340px;
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__image {
+        height: auto;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__image {
+        margin: 0;
+    }
+}

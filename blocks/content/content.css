@@ -1,8 +1,7 @@
-.lead {
+.content {
     display: flex;
-    flex-direction: column;
-    background-color: #2A2C2F;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
 }

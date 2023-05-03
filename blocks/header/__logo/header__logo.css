@@ -2,7 +2,11 @@
     max-width: 176px;
     max-height: 52px;
     z-index: 10;
-    /* top: 28px;
-    left: 48px;
-    background: #FFFFFF;*/
+}
+
+@media screen and (max-width: 320px) {
+    .header__logo {
+        max-width: 142px;
+        max-height: 42px;
+    }
 }

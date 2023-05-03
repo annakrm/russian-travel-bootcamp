@@ -4,8 +4,22 @@
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
-    /* identical to box height, or 107% */
 
     color: #FFFFFF;
     margin: 0 0 40px 0;
+    width: 690px;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__title {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__title {
+        width: 100%;
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

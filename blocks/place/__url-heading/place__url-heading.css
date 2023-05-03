@@ -3,12 +3,15 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 12px;
-    /* identical to box height, or 100% */
-
+    line-height: 170%;
     letter-spacing: 2px;
-
     color: #AAAAAA;
-
     margin: 0;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .place__url-heading {
+        line-height: 12px;
+    }
 }
