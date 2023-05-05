@@ -12,16 +12,7 @@
 	position: relative;
 	text-align: center;
 	background-position: center;
-}
-
-@media screen and (max-width: 1279px) {
-	.cover__background {
-		width: 100%;
-	}
-
-	.cover__background::after {
-		width: 100%;
-	}
+	width: 100%;
 }
 
 .cover__background::after {
@@ -29,14 +20,11 @@
 	opacity: 0.3;
 	z-index: 5;
 	cursor: pointer;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	max-width: 1184px;
 	width: 100%;
 	height: 100%;
 	position: absolute;
+	top: 0;
+	left: 0;
 	content: "";
 }
 

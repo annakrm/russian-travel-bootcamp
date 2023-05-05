@@ -22,5 +22,6 @@
     .place {
         max-width: 100%;
         flex-direction: column;
+        gap: 32px;
     }
 }
